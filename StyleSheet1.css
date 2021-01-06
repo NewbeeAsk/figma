@@ -1,0 +1,164 @@
+﻿body
+{
+}
+
+header{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height:100%;
+}
+
+nav{
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 6.5%;
+    padding-right: 11.5%;
+    padding-bottom: 45%;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+a{
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    padding-left: 4%;
+}
+
+.image-text1{
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    position: absolute;
+    padding-top: 6.5%;
+    padding-left: 11.5%;
+}
+
+.image-text2{
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;
+    position: absolute;
+    padding-top: 18.5%;
+    padding-left: 11.5%;
+}
+
+.image-text3{
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    position: absolute;
+    padding-top: 25.7%;
+    padding-left: 11.5%;
+}
+
+.about {
+    margin-top: 6.5%;
+    margin-right: 11.5%;
+    margin-bottom: 8%;
+    margin-left: 11.5%;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: justify;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    padding-top: 3%;
+    text-align: center;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    color: #333333;
+}
+
+.skills{
+    background: #FFFAF2;
+}
+
+.skills img{
+    width: 60%;
+    padding-left: 17%;
+    padding-top: 6%;
+    padding-bottom: 10%;
+}
+
+.skills h3 {
+    padding-left: 11.5%;
+    padding-top: 6.5%;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+
+.skills-progress {
+    width:100%;
+}
+
+.skills-label {
+    width: 30%;
+    float: left;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 25px;
+    color: #333333;
+}
+
+.skills-name {
+    width: 70%;
+    float: right;
+      font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 25px;
+    color: #333333;
+}
+
+.portfolio {
+    margin-top: 7%;
+}
+
+.portfolio p {
+    margin-top: 5%;
+    text-align: center;
+    margin-left: 14%;
+    margin-right: 13%;
+    padding-bottom: 10%;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #333333;
+}
+
