@@ -1,0 +1,77 @@
+.skills {
+    background: #FFFAF2;
+    height: 617px;
+}
+
+.skills h3 {
+    margin: 0px;
+    text-align: center;
+    padding-top: 25px;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+
+.skills img {
+    width: 60%;
+    padding-top:25px;
+    padding-left: 71px;
+    padding-bottom: 22px;
+}
+
+.skills-progress {
+    width: 100%;
+    margin-left: 34px;
+}
+
+.skills-label {
+    width: 25%;
+    height: 25px;
+    float: left;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 25px;
+    color: #333333;
+    margin-bottom: 9px;
+}
+
+.skills-name {
+    width: auto;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 25px;
+    color: #333333;
+    margin-bottom: 9px;
+}
+
+progress[value] {
+    -webkit-appearance: none;
+    width: 210px;
+    height: 18px;
+    color:antiquewhite;
+}
+
+    progress[value]::-webkit-progress-bar {
+        background-color: #F5D6AB;
+        border-radius: 2px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+    }
+
+    progress[value]::-webkit-progress-value {
+        background-color: #C66C49;
+    }
+
+.tools{
+    margin-bottom: 18px;
+}
+
+.profile {
+    margin-bottom: 30px;
+}

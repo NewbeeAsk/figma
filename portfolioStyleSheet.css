@@ -1,0 +1,57 @@
+.portfolio {
+    margin-top: 25px;
+}
+
+.portfolio h3 {
+    margin: 0;
+    text-align: center;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+
+.portfolio h4 {
+    margin: 0;
+    padding-top: 19px;
+    text-align: center;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    color: #333333;
+}
+
+.portfolio p {
+    margin-bottom:0px;
+    margin-top: 15px;
+    text-align: justify;
+    margin-left: 34px;
+    margin-right: 34px;
+    height: 71px;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #333333;
+}
+
+.rectangle-paint {
+    padding-left:34px;
+    padding-right:34px;
+    padding-bottom:24px;
+    display: flex;
+    flex-direction: row;
+}
+
+}
+
+.rectangle-image {
+    display: flex;
+    flex-direction: column;
+}

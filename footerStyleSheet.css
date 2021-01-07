@@ -1,0 +1,53 @@
+.footer {
+    background-color: #FFFAF2;
+    padding-bottom: 50px;
+}
+
+.footer h3{
+    padding-top:30px;
+    margin-top:0px;
+    margin-bottom:25px;
+    text-align: center;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+}
+
+.social-networks-table {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 42px;
+    padding-right: 42px;
+}
+
+.social-network {
+    flex: 50%;
+    margin-bottom: 18px;
+}
+
+.contacts {
+    margin-left: 42px;
+}
+
+.contacts .mail {
+    margin-top: 11px;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+}
+
+.contacts .number {
+    margin-top: 7px;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #333333;
+}
