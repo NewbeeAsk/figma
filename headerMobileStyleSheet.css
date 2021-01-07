@@ -1,0 +1,66 @@
+@media screen and (max-width: 400px) {
+header {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    height: 275px;
+    width: 375px;
+}
+
+nav{
+    visibility: hidden;
+}
+
+.nav-button {
+    position: absolute;
+    padding-top:5px;
+    padding-bottom:5px;
+    left: 34px;
+    top: 39px;
+    float: left;
+}
+
+.header-text1 {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 36px;
+}
+
+.header-text2 {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.header-text3 {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding-top: 13px;
+    text-align: center;
+}
+
+.header-text4 {
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    padding-top: 41px;
+    text-align: center;
+}
+}

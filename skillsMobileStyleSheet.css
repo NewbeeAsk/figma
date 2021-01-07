@@ -1,25 +1,30 @@
-.skills {
-    background: #FFFAF2;
-    padding-left: 11.8%;
-    padding-bottom: 10%;
-}
+@media screen and (max-width: 400px) {
+    .skills {
+        background: #FFFAF2;
+        height: 617px;
+        padding-left: 0%;
+        padding-bottom: 0%;
+    }
 
 .skills h3 {
     margin: 0px;
-    padding-top: 7%;
+    text-align: center;
+    padding-top: 25px;
     font-family: Libre Franklin;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 24px;
     line-height: 29px;
     color: #333333;
 }
 
 .skills img {
-    width: 27%;
-    margin-top: 7.5%;
-    margin-right: 9.5%;
-    float: left;
+    float:none;
+    width: 60%;
+    padding-top:25px;
+    padding-left: 71px;
+    padding-bottom: 22px;
+    margin-top: 0%;
 }
 
 .skills-progress {
@@ -28,48 +33,52 @@
 }
 
 .skills-label {
-    width: 15.5%;
+    width: 25%;
+    height: 25px;
     float: left;
-    margin-bottom: 1.5%;
     font-family: Libre Franklin;
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 12px;
     line-height: 25px;
     color: #333333;
+    margin-bottom: 9px;
 }
 
 .skills-name {
-    margin-bottom: 1.5%;
+    width: auto;
     font-family: Libre Franklin;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 12px;
     line-height: 25px;
     color: #333333;
+    margin-bottom: 9px;
 }
 
 progress[value] {
     -webkit-appearance: none;
-    width: 35%;
-    height: 24px;
-    color: antiquewhite;
+    width: 210px;
+    height: 18px;
+    color:antiquewhite;
 }
 
     progress[value]::-webkit-progress-bar {
         background-color: #F5D6AB;
         border-radius: 2px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
     }
 
     progress[value]::-webkit-progress-value {
         background-color: #C66C49;
     }
 
-.tools {
-    margin-bottom: 1.5%;
+.tools{
+    margin-bottom: 18px;
 }
 
 .profile {
-    margin-top: 7%;
-    margin-bottom: 5%;
+    margin-top:0%;
+    margin-bottom: 30px;
+}
 }

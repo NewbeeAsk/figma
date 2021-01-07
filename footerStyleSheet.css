@@ -1,26 +1,26 @@
 .footer {
     background-color: #FFFAF2;
-    padding-bottom: 50px;
+    padding-bottom: 15.5%;
+    padding-left: 11.8%;
 }
 
-.footer h3{
-    padding-top:30px;
-    margin-top:0px;
-    margin-bottom:25px;
-    text-align: center;
+.footer h3 {
+    padding-top: 6.5%;
+    margin:0%;
     font-family: Libre Franklin;
     font-style: normal;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 24px;
     line-height: 29px;
     color: #333333;
 }
 
 .social-networks-table {
+    float: left;
+    width: 60%;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 42px;
-    padding-right: 42px;
+    margin-top: 4%;
 }
 
 .social-network {
@@ -32,22 +32,22 @@
     margin-left: 42px;
 }
 
-.contacts .mail {
-    margin-top: 11px;
-    font-family: Libre Franklin;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 17px;
-    color: #333333;
-}
+    .contacts .mail {
+        margin-top: 4%;
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #333333;
+    }
 
-.contacts .number {
-    margin-top: 7px;
-    font-family: Libre Franklin;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 15px;
-    color: #333333;
-}
+    .contacts .number {
+        margin-top: 1.5%;
+        font-family: Libre Franklin;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        color: #333333;
+    }

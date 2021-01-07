@@ -1,17 +1,28 @@
+@media (min-width: 401px) and (max-width: 2040px){
 header {
-    background-image: url(bg.jpg);
+    background-image: url(bigBg.jpg);
     background-repeat: no-repeat;
-    height: 275px;
-    width: 375px;
+    background-size: cover;
+    height: 768px;
+}
+.nav-button{
+    visibility: hidden;
 }
 
-.nav-button {
+nav{
     position: absolute;
-    padding-top:5px;
-    padding-bottom:5px;
-    left: 34px;
-    top: 39px;
-    float: left;
+    top: 6.5%;
+    left: 51.7%;
+}
+
+nav a {
+    padding-right: 21%;
+    font-family: Libre Franklin;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
 }
 
 .header-text1 {
@@ -21,40 +32,43 @@ header {
     font-size: 24px;
     line-height: 29px;
     color: #FFFFFF;
-    text-align: center;
-    padding-top: 36px;
+    margin-top: 5.5%;
+    margin-left: 11.5%;
 }
 
 .header-text2 {
     font-family: Libre Franklin;
     font-style: normal;
     font-weight: normal;
-    font-size: 22px;
-    line-height: 24px;
+    font-size: 64px;
+    line-height: 78px;
+    display: flex;
+    align-items: center;
     color: #FFFFFF;
-    text-align: center;
-    padding-top: 50px;
+    margin-top: 10%;
+    margin-left: 11.5%;
 }
 
 .header-text3 {
     font-family: Libre Franklin;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
-    line-height: 16px;
+    font-size: 24px;
+    line-height: 29px;
     color: #FFFFFF;
-    padding-top: 13px;
-    text-align: center;
+    margin-top: 2%;
+    margin-left: 11.5%;
 }
 
 .header-text4 {
     font-family: Libre Franklin;
     font-style: normal;
     font-weight: normal;
-    font-size: 15px;
-    line-height: 16px;
+    font-size: 18px;
+    line-height: 22px;
     text-decoration-line: underline;
     color: #FFFFFF;
-    padding-top: 41px;
-    text-align: center;
+    margin-top: 7.5%;
+    margin-left: 11.5%;
+}
 }
