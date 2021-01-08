@@ -6,8 +6,8 @@
     }
 
 .footer h3{
-    padding-top:34px;
-    margin-bottom:25px;
+    padding-top:26px;
+    margin-bottom:0px;
     text-align: center;
     font-family: Libre Franklin;
     font-style: normal;
@@ -21,7 +21,8 @@
     display: flex;
     flex-wrap: wrap;
     padding-left: 42px;
-    padding-right: 42px;
+    width:auto;
+    justify-content:space-between;
 }
 
 .social-network {
@@ -31,6 +32,7 @@
 
 .contacts {
     margin-left: 42px;
+    margin-top: 210px;
 }
 
 .contacts .mail {
@@ -52,4 +54,16 @@
     line-height: 15px;
     color: #333333;
 }
+
+    .chevron {
+        position: relative;
+        left: 276px;
+        top: -38px;
+        font-family: Segoe MDL2 Assets;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 24px;
+        color: #333333;
+    }
 }
